@@ -38,7 +38,7 @@ div#mainframe div.text {
   margin:auto;
 }
 div#mainframe div.shaded {
-  background-color: rgba(66,66,66,0.1);
+  background-color: rgba(255,255,255,0.5);
 }
 .navbar, .btn {
   font-family: awesomeEverAfterHeaders;
