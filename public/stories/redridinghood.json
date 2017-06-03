@@ -55,56 +55,7 @@
     "slide": "fourth",
     "bgImg": "blank.png",
     "type": "story",
-    "text": "<p>Well done!</p><p>Along the path, Red Riding Hood sees some pretty flowers and wants to stop to stop and look closer at them. However, she remembers her Mother's words \"Don't dawdle along the way\"</p><p>She also thinks that she can see a shortcut that will get her to her Grandmother's house faster, but her Mother also said \"Remember, go straight to Grandma's house\".</p><p>What should she do?</p>",
-    "continue": [
-      {
-        "text": "Stop and look at the flowers",
-        "color": "cyan",
-        "slide": "fourthFlowers"
-      },
-      {
-        "text": "Go straight to Grandmother's",
-        "color": "cyan",
-        "slide": "fourthStraight"
-      },
-      {
-        "text": "Take a shortcut",
-        "color": "cyan",
-        "slide": "fourthShortcut"
-      }
-    ]
-  },
-  {
-    "slide": "fourthFlowers",
-    "bgImg": "blank.png",
-    "type": "story",
-    "text": "<p>Red Riding Hood stops to smell the flowers... Now she's going to be late!</p>",
-    "continue": [
-      {
-        "text": "Next",
-        "color": "cyan",
-        "slide": "fifth"
-      }
-    ]
-  },
-  {
-    "slide": "fourthStraight",
-    "bgImg": "blank.png",
-    "type": "story",
-    "text": "<p>Red Riding Hood remembers her Mother's advice, and makes the sensible decision to go straight to her Grandmother's house</p>",
-    "continue": [
-      {
-        "text": "Next",
-        "color": "cyan",
-        "slide": "fifth"
-      }
-    ]
-  },
-  {
-    "slide": "fourthShortcut",
-    "bgImg": "blank.png",
-    "type": "story",
-    "text": "<p>Red Riding Hood takes a shortcut - along the way she trips and tears her coat on a stray branch!</p>",
+    "text": "<h3>Well done!</h3><p>But when Little Red Riding Hood noticed some lovely flowers in the woods, she forgot her promise to her mother.  She picked a few, watched the butterflies flit about for awhile, listened to the frogs croaking and then picked a few more.</p><p>Little Red Riding Hood was enjoying the warm summer day so much, that she didn't notice a dark shadow approaching out of the forest behind her...</p>",
     "continue": [
       {
         "text": "Next",
@@ -195,7 +146,7 @@
         "slide": "ninthPicnic"
       },
       {
-        "text": "Run home",
+        "text": "Run for help",
         "color": "cyan",
         "slide": "ninthRun"
       }

@@ -16,7 +16,8 @@
 
 
 body {
-  font-family: awesomeEverAfterMainText;
+  font-family: Verdana,Geneva,sans-serif;
+  overflow: hidden;
 }
 
 div#mainframe {
@@ -72,5 +73,6 @@ div.text h2 {
 }
 
 #controls .storyButton {
-  padding: 2em;
+  padding: 1em;
+  font-size: 1.5em;
 }
