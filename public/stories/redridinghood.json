@@ -131,7 +131,7 @@
   },
   {
     "slide": "tenth",
-    "bgImg": "wolf.png",
+    "bgImg": "wolf.PNG",
     "type": "story",
     "text": "<p>Almost too late, Little Red Riding Hood realized that the person in the bed was not her Grandmother, but a hungry wolf.</p><p></p><p>What should she do?</p>",
     "continue": [
