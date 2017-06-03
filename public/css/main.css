@@ -1,0 +1,58 @@
+@font-face {
+    font-family: awesomeEverAfter;
+    src: url('ImaginaryImages.ttf');
+}
+
+.red {background-color: #f00;}
+.green {background-color: #0f0;}
+.blue {background-color: #00f;}
+.cyan {background-color: #0ff;}
+.yellow {background-color: #ff0;}
+.orange {background-color: #fa0;}
+
+
+body {
+  font-family: awesomeEverAfter;
+}
+
+div#mainframe {
+  text-align: center;
+  height: 80vh;
+  width:80vw;
+  margin: 10vh auto;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+div#mainframe div.text {
+  font-weight: bold;
+  font-size: 1.5em;
+  background-color: rgba(66,66,66,0.1);
+  width:80%;
+  margin:auto;
+}
+
+div.text h2 {
+  padding-top: 5em;
+}
+
+.storyBullet {
+  display: table-cell;
+}
+.storyBullet img {
+  float:left;
+}
+
+#controls {
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(66,66,66,0.5);
+  width: 100%;
+}
+
+#controls .storyButton {
+  padding: 2em;
+}

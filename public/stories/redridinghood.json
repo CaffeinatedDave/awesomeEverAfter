@@ -1,0 +1,149 @@
+{
+  "title": "Little Red Riding Hood",
+  "start": "intro",
+  "story": [{
+    "slide": "intro",
+    "bgImg": "SWSheffield-10-Logo.png",
+    "type": "story",
+    "text": "<p>Once upon a time, there was a little girl who lived in a village near the forest.  Whenever she went out, the little girl wore a red riding cloak, so everyone in the village called her Little Red Riding Hood.</p>",
+    "continue": [
+      {
+        "text": "Next",
+        "color": "cyan",
+        "slide": "second"
+      }
+    ]
+  },
+  {
+    "slide": "second",
+    "bgImg": "SWSheffield-10-Logo.png",
+    "type": "story",
+    "text": "<p>One morning, Little Red Riding Hood asked her mother if she could go to visit her grandmother as it had been awhile since they'd seen each other.</p><p>\"That's a good idea,\" her mother said.  So they packed a nice basket for Little Red Riding Hood to take to her grandmother.</p></p>\"Remember, go straight to Grandma's house,\" her mother cautioned.  \"Don't dawdle along the way and please don't talk to strangers!  The woods are dangerous.\"</p>",
+    "continue": [
+      {
+        "text": "Next",
+        "color": "cyan",
+        "slide": "third"
+      }
+    ]
+  },
+  {
+    "slide": "third",
+    "bgImg": ".png",
+    "type": "puzzle",
+    "text": "Which path should Red Riding Hood take to get to her Grandmother?",
+    "puzzleimg": ".png"
+    "continue": [
+      {
+        "text": "A",
+        "color": "cyan",
+        "answer": false
+      },
+      {
+        "text": "B",
+        "color": "cyan",
+        "answer": true,
+        "slide": "fourth"
+      },
+      {
+        "text": "C",
+        "color": "cyan",
+        "answer": false
+      }
+    ]
+  },
+  {
+    "slide": "thirdWin",
+    "bgImg": ".png",
+    "type": "story",
+    "text": "<p>Well done!</p>",
+    "continue": [
+      {
+        "text": "Next",
+        "color": "cyan",
+        "slide": "fourth"
+      }
+    ]
+  },
+  {
+    "slide": "fourth",
+    "bgImg": "SWSheffield-10-Logo.png",
+    "type": "story",
+    "text": "<p>Along the path, Red Riding Hood sees some pretty flowers and wants to stop to stop and look closer at them. However, she remembers her Mother's words \"Don't dawdle along the way\"</p><p>She also thinks that she can see a shortcut that will get her to her Grandmother's house faster, but her Mother also said \"Remember, go straight to Grandma's house\".</p><p>What should she do?</p>",
+    "continue": [
+      {
+        "text": "Stop and look at the flowers",
+        "color": "cyan",
+        "slide": "fourthFlowers"
+      },
+      {
+        "text": "Go straight to Grandmother's",
+        "color": "cyan",
+        "slide": "fourthStraight"
+      },
+      {
+        "text": "Take a shortcut",
+        "color": "cyan",
+        "slide": "fourthShortcut"
+      }
+    ]
+  },
+  {
+    "slide": "fourthFlowers",
+    "bgImg": ".png",
+    "type": "story",
+    "text": "<p>Red Riding Hood stops to smell the flowers... Now she's going to be late!</p>",
+    "continue": [
+      {
+        "text": "Next",
+        "color": "cyan",
+        "slide": "fifth"
+      }
+    ]
+  },
+  {
+    "slide": "fourthStraight",
+    "bgImg": ".png",
+    "type": "story",
+    "text": "<p>Red Riding Hood remembers her Mother's advice, and makes the sensible decision to go straight to her Grandmother's house</p>",
+    "continue": [
+      {
+        "text": "Next",
+        "color": "cyan",
+        "slide": "fifth"
+      }
+    ]
+  },
+  {
+    "slide": "fourthShortcut",
+    "bgImg": ".png",
+    "type": "story",
+    "text": "<p>Red Riding Hood takes a shortcut - along the way she trips and tears her coat on a stray branch!</p>",
+    "continue": [
+      {
+        "text": "Next",
+        "color": "cyan",
+        "slide": "fifth"
+      }
+    ]
+  },
+  {
+    "slide": "fifth",
+    "bgImg": ".png",
+    "type": "story",
+    "text": "<p>More story... It gets complicated from here and I can't spell</p>",
+    "continue": [
+      {
+        "text": "Next",
+        "color": "cyan",
+        "slide": "final"
+      }
+    ]
+  },
+  {
+    "slide": "final",
+    "bgImg": "SWSheffield-10-Logo.png",
+    "type": "finish",
+    "text": "Congratulations you got to the end, something something positive affirmation"
+  }]
+}

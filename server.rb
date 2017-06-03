@@ -33,9 +33,23 @@ configure do
 end
 
 before do
-  @user = nil# get_user(session[:user_id])
+  @user = session[:user_id]
 end
 
 get '/?' do
   erb :index
+end
+
+get '/storytime/?' do
+  erb :storyList
+end
+
+get '/story/?' do
+  @id = params[:id]
+  erb :story
+end
+
+post '/login' do
+  session[:user_id] = 1
+  redirect '/storytime'
 end
