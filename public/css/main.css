@@ -7,10 +7,10 @@
     src: url('Schoolbell.ttf');
 }
 
-.red {background-color: #f00;}
+.red {background-color: #ef4836; color:#fff;}
 .green {background-color: #0f0;}
 .blue {background-color: #00f;}
-.cyan {background-color: #0ff;}
+.cyan, .btn-default {background-color: #009fd4; color:#fff;}
 .yellow {background-color: #ff0;}
 .orange {background-color: #fa0;}
 
@@ -50,7 +50,7 @@ body {
 
 div#mainframe div.text {
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 12px;
   width:100%;
   margin:auto;
   margin-bottom: 5em;
@@ -59,8 +59,10 @@ div#mainframe div.shaded {
   background-color: rgba(255,255,255,0.5);
 }
 .navbar, .btn {
-  font-family: awesomeEverAfterHeaders;
+  font-family: "Open Sans", Arial, sans-serif;
+  color:#fff;
 }
+
 div.text h2 {
   padding-top: 5em;
   font-family: awesomeEverAfterHeaders;
@@ -85,7 +87,8 @@ div.text h2 {
   position: fixed;
   left:0;
   bottom: 0;
-  background-color: rgba(66,66,66,0.5);
+  background-color: #fff;
+  padding:10px 0;
   width: 100%;
 }
 

@@ -2,10 +2,10 @@
 .navbar-default {height: 5em; }
 
 .navbar-default { background-color: #fa0; border-color: #ff0; }
-.navbar-default .navbar-brand { color: #000; }
+.navbar-default .navbar-brand { color: #fff; }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus { color: #333; }
 .navbar-default .navbar-text { color: #000; }
-.navbar-default .navbar-nav > li > a { color: #000; }
+.navbar-default .navbar-nav > li > a { color: #000; padding:25px; }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus { color: #333; }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { color: #333; background-color: #ff0; }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus { color: #333; background-color: #ff0; }
