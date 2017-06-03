@@ -15,10 +15,9 @@
 .orange {background-color: #fa0;}
 
 #warning-message { display: none; }
-
 @media only screen and (orientation:portrait){
     #wrapper { display:none; }
-    #warning-message { display:block; }
+    #warning-message { display:block; margin-top: 7em;}
 }
 @media only screen and (orientation:landscape){
     #warning-message { display:none; }
@@ -63,8 +62,7 @@ div.text h2 {
 }
 .storyBullet img {
   float:left;
-  height: 150px;
-  width: 150px;
+  width: 100%
 }
 
 .storyImg {
