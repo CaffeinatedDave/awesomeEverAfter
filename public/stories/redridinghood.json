@@ -5,7 +5,7 @@
     "slide": "intro",
     "bgImg": "intro.jpg",
     "type": "story",
-    "text": "<p>Once upon a time, there was a little girl who lived in a village near the forest.  Whenever she went out, the little girl wore a red riding cloak, so everyone in the village called her Little Red Riding Hood.</p><p>One morning, Little Red Riding Hood asked her mother if she could go to visit her grandmother as it had been awhile since they'd seen each other.</p><p>\"That's a good idea,\" her mother said.  So they packed a nice basket for Little Red Riding Hood to take to her grandmother.</p>",
+    "text": "<p>Once upon a time, there was a girl who lived in a village near the forest.  The little girl wore a red riding cloak, so everyone called her Little Red Riding Hood.</p><p>One morning, Little Red Riding Hood asked her mother if she could go to visit her grandmother as it had been a while since they'd seen each other.</p><p>\"That's a good idea,\" her mother said.</p>",
     "continue": [
       {
         "text": "Next",
@@ -14,7 +14,7 @@
       }
     ]
   },
-  {
+  /*{
     "slide": "second",
     "bgImg": "intro.jpg",
     "type": "story",
@@ -26,7 +26,7 @@
         "slide": "third"
       }
     ]
-  },
+  },*/
   {
     "slide": "third",
     "bgImg": "blank.png",
