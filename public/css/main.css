@@ -25,15 +25,16 @@
 
 body {
   font-family: Verdana,Geneva,sans-serif;
-  overflow: hidden;
 }
 
 div#mainframe {
   text-align: center;
   height: 80vh;
-  width:80vw;
+  width: 80vw;
   margin: 5em auto 10vh auto;
-  position: relative;
+  left: 10vw;
+  position: fixed;
+  overflow-y: scroll;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -42,7 +43,7 @@ div#mainframe {
 div#mainframe div.text {
   font-weight: bold;
   font-size: 1.5em;
-  width:80%;
+  width:100%;
   margin:auto;
   margin-bottom: 5em;
 }

@@ -28,9 +28,9 @@ function loadSlide(slide) {
     const rowsize = 12 / selectedSlide.continue.length;
     selectedSlide.continue.forEach(function(e) {
       if (e.answer === false) {
-        options += '<div class="col-xs-'+rowsize+'"><button class="btn storyButton '+e.color+'" onclick="errorButton(this);">'+e.text+'</button></div>';
+        options += '<div class="col-md-'+rowsize+'"><button class="btn storyButton '+e.color+'" onclick="errorButton(this);">'+e.text+'</button></div>';
       } else {
-        options += '<div class="col-xs-'+rowsize+'"><button class="btn storyButton '+e.color+'" onclick="loadSlide(\''+e.slide+'\');">'+e.text+'</button></div>';
+        options += '<div class="col-md-'+rowsize+'"><button class="btn storyButton '+e.color+'" onclick="loadSlide(\''+e.slide+'\');">'+e.text+'</button></div>';
       }
     });
   }
