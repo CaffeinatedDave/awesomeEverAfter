@@ -16,7 +16,7 @@
   },
   {
     "slide": "second",
-    "bgImg": "blank.png",
+    "bgImg": "intro.jpg",
     "type": "story",
     "text": "<p>When the basket was ready, the little girl put on her red cloak and kissed her mother goodbye.</p><p>\"Remember, go straight to Grandma's house,\" her mother cautioned.  \"Don't dawdle along the way and please don't talk to strangers!  The woods are dangerous.\"</p><p>\"Don't worry, mommy,\" said Little Red Riding Hood, \"I'll be careful.\"</p>",
     "continue": [
@@ -131,7 +131,7 @@
   },
   {
     "slide": "tenth",
-    "bgImg": "blank.png",
+    "bgImg": "wolf.png",
     "type": "story",
     "text": "<p>Almost too late, Little Red Riding Hood realized that the person in the bed was not her Grandmother, but a hungry wolf.</p><p></p><p>What should she do?</p>",
     "continue": [
