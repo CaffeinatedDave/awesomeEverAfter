@@ -117,7 +117,7 @@
     ]
   },
   {
-    "slide": "eighth",
+    "slide": "ninth",
     "bgImg": "blank.png",
     "type": "story",
     "text": "<p>\"But Grandmother!  What big ears you have,\" said Little Red Riding Hood as she edged closer to the bed.</p><p>\"The better to hear you with, my dear,\" replied the wolf.</p><p>\"But Grandmother!  What big eyes you have,\" said Little Red Riding Hood.</p><p>\"The better to see you with, my dear,\" replied the wolf.</p><p>\"But Grandmother!  What big teeth you have,\" said Little Red Riding Hood her voice quivering slightly.</p><p>\"The better to eat you with, my dear,\" roared the wolf and he leapt out of the bed and began to chase the little girl.</p>",
@@ -125,50 +125,49 @@
       {
         "text": "Next",
         "color": "cyan",
-        "slide": "ninth"
+        "slide": "tenth"
       }
     ]
   },
   {
-    "slide": "ninth",
+    "slide": "tenth",
     "bgImg": "blank.png",
     "type": "story",
     "text": "<p>Almost too late, Little Red Riding Hood realized that the person in the bed was not her Grandmother, but a hungry wolf.</p><p></p><p>What should she do?</p>",
     "continue": [
       {
-        "text": "Kick the wolf's ass",
+        "text": "Trick the Wolf",
         "color": "cyan",
-        "slide": "ninthAssKick"
+        "slide": "tenthTrickWolf"
       },
       {
-        "text": "Bribe the wolf with a picnic",
+        "text": "Give the Wolf the Picnic",
         "color": "cyan",
-        "slide": "ninthPicnic"
+        "slide": "tenthPicnic"
       },
       {
         "text": "Run for help",
         "color": "cyan",
-        "slide": "ninthRun"
+        "slide": "tenthRun"
       }
     ]
   },
   {
-    "slide": "ninthAssKick",
+    "slide": "tenthTrickWolf",
     "bgImg": "blank.png",
     "type": "finish",
-    "text": "<p>Red Riding Hood ducked out of the way as the wolf charged at her, tripping him over as he went past.</p>"
+    "text": "<p>Red Riding Hood looks at the really thin wolf and decides she can trick the wolf into letting her Grandmother go.</p><p>Red Riding Hood sneaks the pepper pot out of the picnic basket and spreads it onto the flowers she picked.</p><p>\"Grandmother, smell these beautiful flowers I picked\" she says</p><p>The wolf smells the flowers and sneezes Grandmother out!</p><p>\"You bad wolf\" Red Riding Hood scolds, \"I would have shared my picnic if you'd only asked\"</p><p>The sneezy wolf looks sheepish and runs away.</p>"
   },
   {
-    "slide": "ninthPicnic",
+    "slide": "tenthPicnic",
     "bgImg": "blank.png",
     "type": "finish",
-    "text": "<p>Red Riding Hood realised</p>"
+    "text": "<p>Red Riding Hood realises that the wolf is really hungry so offers the picnic to the wolf, but only if the wolf gives her back her grandmother.</p><p>The wolf snarls and grumbles but once he smells the delicious food in the basket he coughs grandmother right up and escapes with the basket!</p>"
   },
   {
-    "slide": "ninthRun",
+    "slide": "tenthRun",
     "bgImg": "blank.png",
     "type": "finish",
     "text": "<p>Red Riding Hood ran across the room and through the door, shouting, \"Help!  Wolf!\" as loudly as she could.</p><p>A woodsman who was chopping logs nearby heard her cry and ran towards the cottage as fast as he could.</p><p>He grabbed the wolf and made him spit out the poor Grandmother who was a bit frazzled by the whole experience, but still in one piece.</p><p>\"Oh Grandma, I was so scared!\"  sobbed Little Red Riding Hood, \"I'll never speak to strangers or dawdle in the forest again.\"</p><p>\"There, there, child.  You've learned an important lesson.  Thank goodness you shouted loud enough for this kind woodsman to hear you!\"</p><p>The woodsman knocked out the wolf and carried him deep into the forest where he wouldn't bother people any longer.</p><p>Little Red Riding Hood and her Grandmother had a nice lunch and a long chat.</p>"
   }]
-
 }

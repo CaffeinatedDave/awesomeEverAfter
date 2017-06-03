@@ -5,7 +5,20 @@
     "slide": "intro",
     "bgImg": "SWSheffield-10-Logo-faded.png",
     "type": "story",
-    "text": "<p>Once upon a time...</p>",
+    "text": "<p>If you would like to follow along at home (or in the crowd) - please go to <a href=\"http://www.awesomeeverafter.co\">http://www.awesomeeverafter.co</a>.</p><br/><br/><p>Once upon a time...</p><p>In a land far far away...</p><p>There were some really stereotypical fairytales</p>",
+    "continue": [
+      {
+        "text": "Next",
+        "color": "cyan",
+        "slide": "first"
+      }
+    ]
+  },
+  {
+    "slide": "first",
+    "bgImg": "SWSheffield-10-Logo-faded.png",
+    "type": "story",
+    "text": "<p>We all know the fairytales as we grew up. Sleeping Beauty, Cinderella, Rapunzel - all rescued by.. A prince.</p><p>This tired trope doesn't teach children that they can do things for themselves.</p>",
     "continue": [
       {
         "text": "Next",
@@ -18,20 +31,20 @@
     "slide": "second",
     "bgImg": "SWSheffield-10-Logo-faded.png",
     "type": "story",
-    "text": "<p>Multiple Choice!</p>",
+    "text": "<p>We asked a number?? of parents and their children for the kinds of things that they look for in books and reading activities.</p><p>Multiple Choice!</p>",
     "continue": [
       {
-        "text": "Next",
+        "text": "Yes",
         "color": "cyan",
         "slide": "third"
       },
       {
-        "text": "Next",
+        "text": "Literally the best",
         "color": "cyan",
         "slide": "third"
       },
       {
-        "text": "Next",
+        "text": "Absolutely",
         "color": "cyan",
         "slide": "third"
       }
