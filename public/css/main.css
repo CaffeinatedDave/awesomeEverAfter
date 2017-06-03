@@ -14,19 +14,6 @@
 .yellow {background-color: #ff0;}
 .orange {background-color: #fa0;}
 
-#warning-message { display: none; }
-@media only screen and (orientation:portrait){
-    #wrapper { display:none; }
-    #warning-message { display:block; margin-top: 7em;}
-}
-@media only screen and (orientation:landscape){
-    #warning-message { display:none; }
-}
-
-body {
-  font-family: Verdana,Geneva,sans-serif;
-}
-
 div#mainframe {
   text-align: center;
   height: 80vh;
@@ -39,6 +26,27 @@ div#mainframe {
   background-repeat: no-repeat;
   background-position: center center;
 }
+#warning-message { display: none; }
+@media only screen and (orientation:portrait){
+    #wrapper { display:none; }
+    #warning-message { display:block; margin-top: 7em;}
+}
+@media only screen and (orientation:landscape){
+    #warning-message { display:none; }
+}
+@media (max-width: 767px) {
+    .navbar{
+        display:none;
+    }
+    div#mainframe {
+      margin: 0 auto 10vh auto;
+    }
+}
+
+body {
+  font-family: Verdana,Geneva,sans-serif;
+}
+
 
 div#mainframe div.text {
   font-weight: bold;
