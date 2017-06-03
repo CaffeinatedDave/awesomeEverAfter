@@ -85,3 +85,7 @@ div.text h2 {
   padding: 1em;
   font-size: 1.5em;
 }
+
+ul {
+  list-style: none;
+}
