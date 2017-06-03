@@ -1,0 +1,83 @@
+{
+  "title": "Awesome Ever After - A Presentation",
+  "start": "intro",
+  "story": [{
+    "slide": "intro",
+    "bgImg": "SWSheffield-10-Logo-faded.png",
+    "type": "story",
+    "text": "<p>Once upon a time...</p>",
+    "continue": [
+      {
+        "text": "Next",
+        "color": "cyan",
+        "slide": "second"
+      }
+    ]
+  },
+  {
+    "slide": "second",
+    "bgImg": "SWSheffield-10-Logo-faded.png",
+    "type": "story",
+    "text": "<p>Multiple Choice!</p>",
+    "continue": [
+      {
+        "text": "Next",
+        "color": "cyan",
+        "slide": "third"
+      },
+      {
+        "text": "Next",
+        "color": "cyan",
+        "slide": "third"
+      },
+      {
+        "text": "Next",
+        "color": "cyan",
+        "slide": "third"
+      }
+    ]
+  },
+  {
+    "slide": "third",
+    "bgImg": "SWSheffield-10-Logo-faded.png",
+    "type": "puzzle",
+    "text": "<p>Example of a puzzle</p>",
+    "continue": [
+      {
+        "text": "Next",
+        "color": "cyan",
+        "answer": false
+      },
+      {
+        "text": "Next",
+        "color": "cyan",
+        "answer": false
+      },
+      {
+        "text": "Next",
+        "color": "cyan",
+        "slide": "fourth",
+        "answer": true
+      }
+    ]
+  },
+  {
+    "slide": "fourth",
+    "bgIng": "SWSheffield-10-Logo-faded.png",
+    "type": "story",
+    "text": "",
+    "contine": [
+      {
+        "text": "Next",
+        "color": "cyan",
+        "slide": "finish"
+      }
+    ]
+  },
+  {
+    "slide": "finish",
+    "bgImg": "SWSheffield-10-Logo-faded.png",
+    "type": "finish",
+    "text": "<p>Thank you for watching, we hope you've enjoyed</p>"
+  }]
+}

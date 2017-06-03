@@ -20,7 +20,7 @@ function errorButton(b) {
 function loadSlide(slide) {
   const selectedSlide = window.story.filter(function(e) {return e.slide == slide})[0];
   $('#mainframe').css("background-image", 'url("/img/'+selectedSlide.bgImg+'")');
-  $('#slide').html('<div class="text">' + selectedSlide.text + '</div>');
+  $('#slide').html('<div class="text shaded">' + selectedSlide.text + '</div>');
   options = '<div class="row">';
   if (selectedSlide.type === "finish") {
     options += '<div class="col-12"><button onclick="location.href=\'/storytime\'" class="btn storyButton green">Finish</button></div>';
