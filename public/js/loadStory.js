@@ -2,8 +2,8 @@ function loadScript(file) {
   $.getJSON('stories/'+file, function(json) {
     console.log(json); // this will show the info it in firebug console
     window.story = json.story;
+    window.title = json.title;
     $("#mainframe").html(
-      "<h2>" + json.title + "</h2>" +
       "<div id=\"slide\"></div>" +
       "<div id=\"controls\"></div>");
     loadSlide(json.start);
@@ -20,12 +20,12 @@ function errorButton(b) {
 function loadSlide(slide) {
   const selectedSlide = window.story.filter(function(e) {return e.slide == slide})[0];
   $('#mainframe').css("background-image", 'url("/img/'+selectedSlide.bgImg+'")');
-  $('#slide').html('<div class="text shaded">' + selectedSlide.text + '</div>');
+  $('#slide').html('<div class="text shaded"><h2>' + window.title + '</h2>' + selectedSlide.text + '</div>');
   options = '<div class="row">';
   if (selectedSlide.type === "finish") {
     options += '<div class="col-12"><button onclick="location.href=\'/storytime\'" class="btn storyButton green">Finish</button></div>';
   } else {
-    const rowsize = 12 / selectedSlide.continue.length;
+    const rowsize = Math.floor(12 / selectedSlide.continue.length);
     selectedSlide.continue.forEach(function(e) {
       if (e.answer === false) {
         options += '<div class="col-xs-'+rowsize+'"><button class="btn storyButton '+e.color+'" onclick="errorButton(this);">'+e.text+'</button></div>';
