@@ -204,47 +204,20 @@
   {
     "slide": "ninthAssKick",
     "bgImg": "blank.png",
-    "type": "story",
-    "text": "<p>Red Riding Hood ducked out of the way as the wolf charged at her, tripping him over as he went past.</p>",
-    "continue": [
-      {
-        "text": "Finish",
-        "color": "green",
-        "slide": "finish"
-      }
-    ]
+    "type": "finish",
+    "text": "<p>Red Riding Hood ducked out of the way as the wolf charged at her, tripping him over as he went past.</p>"
   },
   {
     "slide": "ninthPicnic",
     "bgImg": "blank.png",
-    "type": "story",
-    "text": "<p>Red Riding Hood realised</p>",
-    "continue": [
-      {
-        "text": "Finish",
-        "color": "green",
-        "slide": "finish"
-      }
-    ]
+    "type": "finish",
+    "text": "<p>Red Riding Hood realised</p>"
   },
   {
     "slide": "ninthRun",
     "bgImg": "blank.png",
-    "type": "story",
-    "text": "<p>Red Riding Hood ran across the room and through the door, shouting, \"Help!  Wolf!\" as loudly as she could.</p><p>A woodsman who was chopping logs nearby heard her cry and ran towards the cottage as fast as he could.</p><p>He grabbed the wolf and made him spit out the poor Grandmother who was a bit frazzled by the whole experience, but still in one piece.</p>",
-    "continue": [
-      {
-        "text": "Finish",
-        "color": "green",
-        "slide": "finish"
-      }
-    ]
-  },
-  {
-    "slide": "finish",
-    "bgImg": "SWSheffield-10-Logo-faded.png",
     "type": "finish",
-    "text": "<p>Thank you for watching, we hope you've enjoyed</p>"
+    "text": "<p>Red Riding Hood ran across the room and through the door, shouting, \"Help!  Wolf!\" as loudly as she could.</p><p>A woodsman who was chopping logs nearby heard her cry and ran towards the cottage as fast as he could.</p><p>He grabbed the wolf and made him spit out the poor Grandmother who was a bit frazzled by the whole experience, but still in one piece.</p>"
   }]
 
 }

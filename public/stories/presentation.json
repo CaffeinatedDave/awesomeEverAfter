@@ -65,8 +65,8 @@
     "slide": "fourth",
     "bgIng": "SWSheffield-10-Logo-faded.png",
     "type": "story",
-    "text": "",
-    "contine": [
+    "text": "<p>&nbsp;</p>",
+    "continue": [
       {
         "text": "Next",
         "color": "cyan",
@@ -78,6 +78,6 @@
     "slide": "finish",
     "bgImg": "SWSheffield-10-Logo-faded.png",
     "type": "finish",
-    "text": "<p>Thank you for watching, we hope you've enjoyed</p>"
+    "text": "<p>Thank you for watching, we hope you've enjoyed</p><p>Any Questions?</p>"
   }]
 }

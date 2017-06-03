@@ -53,3 +53,11 @@ post '/login' do
   session[:user_id] = 1
   redirect '/storytime'
 end
+
+get '/register/?' do
+  erb :register
+end
+
+post '/register/?' do
+  redirect '/storytime'
+end
