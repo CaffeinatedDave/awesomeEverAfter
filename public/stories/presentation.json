@@ -11,7 +11,7 @@
       {
         "text": "Next",
         "color": "green",
-        "slide": "solution"
+        "slide": "problem"
       }
     ]
   },
@@ -222,7 +222,25 @@
     "slide": "finish",
     "bgImg": "home-faded.jpg",
     "type": "story",
-    "text": "<p style=\"margin-top: 15vh;\">Thank you for watching our demo, we hope you enjoyed it</p><p style=\"margin-top: 10vh;\">If you would like to have a go yourself, we're already LIVE at <a href=\"http://www.awesomeeverafter.co\">http://www.awesomeeverafter.co</a></p><p style=\"margin-top: 10vh;\">Any Questions?</p>",
+    "text": "<p style=\"margin-top: 15vh;\">Thank you for watching our demo, we hope you enjoyed it</p><p style=\"margin-top: 10vh;\">If you would like to have a go yourself, we're already LIVE at <a href=\"http://www.awesomeeverafter.co\">http://www.awesomeeverafter.co</a></p><p style=\"margin-top: 5vh;\">Any Questions?</p>",
+    "continue": [
+      {
+        "text": "Back",
+        "color": "blue",
+        "slide": "team"
+      },
+      {
+        "text": "Finish",
+        "color": "green",
+        "slide": "finishTEN"
+      }
+    ]
+  },
+  {
+    "slide": "finishTEN",
+    "bgImg": "home-faded.jpg",
+    "type": "story",
+    "text": "<p style=\"margin-top: 15vh;\">Thank you for watching our demo, we hope you enjoyed it</p><p style=\"margin-top: 10vh;\">If you would like to have a go yourself, we're already LIVE at <a href=\"http://www.awesomeeverafter.co\">http://www.awesomeeverafter.co</a></p><p style=\"margin-top: 5vh;\">Any Questions?</p><h2>10!</h2>",
     "continue": [
       {
         "text": "Back",
