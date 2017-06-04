@@ -11,7 +11,7 @@
       {
         "text": "Next",
         "color": "green",
-        "slide": "problem"
+        "slide": "solution"
       }
     ]
   },
@@ -19,7 +19,25 @@
     "slide": "problem",
     "bgImg": "home-faded.jpg",
     "type": "story",
-    "text": "<h2>Problem</h2><p style=\"margin-top: 10vh;\">Lack of female heroes - most happy ever after based on Princes.</p><p style=\"margin-top: 10vh;\">Lack of problem solvings skills and ending choice.</p>",
+    "text": "<h2>Why?</h2><p style=\"margin-top: 10vh;\">Lack of female heroes - most happy ever afters are based on princes.</p><p style=\"margin-top: 10vh;\">Lack of problem solvings skills and ending choice.</p>",
+    "continue": [
+      {
+        "text": "Back",
+        "color": "blue",
+        "slide": "solution"
+      },
+      {
+        "text": "Next",
+        "color": "green",
+        "slide": "validation"
+      }
+    ]
+  },
+  {
+    "slide": "solution",
+    "bgImg": "home-faded.jpg",
+    "type": "story",
+    "text": "<h2>What?</h2><p style=\"margin-top: 15vh;\">An interactive story game aimed at engaging children and having them control the story.</p>",
     "continue": [
       {
         "text": "Back",
@@ -29,25 +47,7 @@
       {
         "text": "Next",
         "color": "green",
-        "slide": "solution"
-      }
-    ]
-  },
-  {
-    "slide": "solution",
-    "bgImg": "home-faded.jpg",
-    "type": "story",
-    "text": "<h2>Solution</h2><p style=\"margin-top: 15vh;\">An interactive story game aimed at engaging children and having them control the story.</p>",
-    "continue": [
-      {
-        "text": "Back",
-        "color": "blue",
         "slide": "problem"
-      },
-      {
-        "text": "Next",
-        "color": "green",
-        "slide": "validation"
       }
     ]
   },
@@ -60,7 +60,7 @@
       {
         "text": "Back",
         "color": "blue",
-        "slide": "solution"
+        "slide": "problem"
       },
       {
         "text": "Next",
@@ -139,7 +139,7 @@
     "slide": "choices",
     "bgImg": "blank.png",
     "type": "story",
-    "text": "<div style=\"\"><p>Little Red Riding Hood realized that the person in the bed was not her Grandmother, but a hungry wolf. What should she do?</p><ul><li>A) Trick the Wolf</li><li>B) Give the Wolf the Picnic</li><li>C) Run for help</li></ul><p><img src=\"/img/wolf.PNG\" style=\"width:35%; margin:auto;\"/></p></div>",
+    "text": "<div style=\"\"><p>Little Red Riding Hood realised that the person in the bed was not her Grandmother, but a hungry wolf. What should she do?</p><ul><li>A) Trick the Wolf</li><li>B) Give the Wolf the Picnic</li><li>C) Run for help</li></ul><p><img src=\"/img/wolf.PNG\" style=\"width:35%; margin:auto;\"/></p></div>",
     "continue": [
       {
         "text": "Back",
@@ -191,7 +191,7 @@
       {
         "text": "Back",
         "color": "blue",
-        "slide": "choices"
+        "slide": "choicesTrickWolf"
       },
       {
         "text": "Next",
@@ -209,7 +209,7 @@
       {
         "text": "Back",
         "color": "blue",
-        "slide": "choices"
+        "slide": "value"
       },
       {
         "text": "Next",
@@ -240,6 +240,6 @@
     "slide": "realfinish",
     "bgImg": "home-faded.jpg",
     "type": "finish",
-    "text": "<p>The Moose of Curiousity sees you...</p><p><img src=\"https://media.giphy.com/media/yX6xFbjL4nDTG/giphy.gif\" style=\"width: 70%;\"/></p>"
+    "text": "<p>The Moose of Curiosity sees you...</p><p><img src=\"https://media.giphy.com/media/yX6xFbjL4nDTG/giphy.gif\" style=\"width: 70%;\"/></p>"
   }]
 }
