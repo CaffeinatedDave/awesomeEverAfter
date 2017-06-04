@@ -101,16 +101,16 @@ div.text h2 {
   position: fixed;
   left:0;
   bottom: 0;
-  height: 10vh;
   background-color: #fff;
-  padding:10px 0;
+  padding: 0;
   width: 100%;
 }
 
 #controls .storyButton {
-  padding: 1em;
+  margin-top: 1vh;
+  padding: 4vh;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 2vh;
 }
 
 ul {
