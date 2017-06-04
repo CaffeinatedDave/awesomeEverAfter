@@ -31,7 +31,7 @@
     "slide": "third",
     "bgImg": "blank.png",
     "type": "puzzle",
-    "text": "<p>Which path should Red Riding Hood take to get to her Grandmother?</p><img class=\"storyImg\" src=\"/img/RRHMazePuzzle.png\"/>",
+    "text": "<p>Which path should Red Riding Hood take to get to her Grandmother?</p><img class=\"storyImg\" src=\"/img/RRHMazePuzzle.png\" style=\"width: 60%; margin: auto;\"/>",
     "continue": [
       {
         "text": "A",
