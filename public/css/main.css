@@ -20,9 +20,9 @@
 }
 div#mainframe {
   text-align: center;
-  height: 80vh;
+  height: 78vh;
   width: 80vw;
-  margin: 5em auto 10vh auto;
+  margin: 12vh auto 10vh auto;
   left: 10vw;
   position: fixed;
   overflow-y: scroll;
@@ -51,6 +51,9 @@ body {
   font-family: Verdana,Geneva,sans-serif;
 }
 
+.container {
+  width: 100%;
+}
 
 div#mainframe div.text {
   font-weight: bold;
@@ -62,9 +65,15 @@ div#mainframe div.text {
 div#mainframe div.shaded {
   background-color: rgba(255,255,255,0.5);
 }
+
 .navbar, .btn {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: awesomeEverAfterHeaders;
   color:#fff;
+}
+
+.navbar a {
+  padding-top: 24px;
+  font-size: 3em;
 }
 
 div.text h2 {
@@ -88,6 +97,7 @@ div.text h2 {
   position: fixed;
   left:0;
   bottom: 0;
+  height: 10vh;
   background-color: #fff;
   padding:10px 0;
   width: 100%;
@@ -101,4 +111,8 @@ div.text h2 {
 
 ul {
   list-style: none;
+}
+
+* {
+  border-radius: 0 !important;
 }
