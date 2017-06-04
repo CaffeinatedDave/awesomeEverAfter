@@ -3,6 +3,8 @@ function loadScript(file) {
     console.log(json); // this will show the info it in firebug console
     window.story = json.story;
     window.title = json.title;
+    $('head').append('<link rel="stylesheet" type="text/css" href="/css/'+json.css+'">');
+
     $("#mainframe").html('<div id="slide"></div>');
     $("#controls").css('display', 'inline');
     loadSlide(json.start);

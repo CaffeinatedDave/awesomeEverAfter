@@ -1,88 +1,208 @@
 {
-  "title": "Awesome Ever After - A Presentation",
+  "title": "",
   "start": "intro",
+  "css": "presentation.css",
   "story": [{
     "slide": "intro",
     "bgImg": "SWSheffield-10-Logo-faded.png",
     "type": "story",
-    "text": "<p>If you would like to follow along at home (or in the crowd) - please go to <a href=\"http://www.awesomeeverafter.co\">http://www.awesomeeverafter.co</a>.</p><br/><br/><p>Once upon a time...</p><p>In a land far far away...</p><p>There were some really stereotypical fairytales</p>",
+    "text": "<p>Once upon a time...</p><p>In a land far far away...</p><p>There were some really stereotypical fairytales</p><img src=\"/img/logofull.png\" style=\"width:35%; margin: auto;\"/>",
+    "continue": [
+      {
+        "text": "Next",
+        "color": "green",
+        "slide": "problem"
+      }
+    ]
+  },
+  {
+    "slide": "problem",
+    "bgImg": "SWSheffield-10-Logo-faded.png",
+    "type": "story",
+    "text": "<h2>Problem</h2><p>Lack of female heroes - most happy ever after based on Princes.</p><p>Lack of problem solvings skills and choice.</p>",
+    "continue": [
+      {
+        "text": "Back",
+        "color": "blue",
+        "slide": "intro"
+      },
+      {
+        "text": "Next",
+        "color": "green",
+        "slide": "validation"
+      }
+    ]
+  },
+  {
+    "slide": "solution",
+    "bgImg": "SWSheffield-10-Logo-faded.png",
+    "type": "story",
+    "text": "<h2>Solution</h2><p></p>",
+    "continue": [
+      {
+        "text": "Back",
+        "color": "blue",
+        "slide": "problem"
+      },
+      {
+        "text": "Next",
+        "color": "green",
+        "slide": "validation"
+      }
+    ]
+  },
+  {
+    "slide": "validation",
+    "bgImg": "SWSheffield-10-Logo-faded.png",
+    "type": "story",
+    "text": "<h2>Validation</h2><p>We asked a number of parents and their children for the kinds of things that they look for in books and reading activities.</p><p>Parents identifying the problem was not as we expected.</p>",
+    "continue": [
+      {
+        "text": "Back",
+        "color": "blue",
+        "slide": "problem"
+      },
+      {
+        "text": "Next",
+        "color": "green",
+        "slide": "stats"
+      }
+    ]
+  },
+  {
+    "slide": "stats",
+    "bgImg": "SWSheffield-10-Logo-faded.png",
+    "type": "story",
+    "text": "<h2>Results</h2><p>71% of children aged 5-15 have access to a tablet</p><p>Lack of interpersonal skills taught to boys and lack of puzzles for girls</p>",
+    "continue": [
+      {
+        "text": "Back",
+        "color": "blue",
+        "slide": "problem"
+      },
+      {
+        "text": "Next",
+        "color": "green",
+        "slide": "demoIntro"
+      }
+    ]
+  },
+  {
+    "slide": "demoIntro",
+    "bgImg": "intro.jpg",
+    "type": "story",
+    "text": "<div style=\"font-size:0.3em;\"><p>Once upon a time, there was a girl who lived in a village near the forest.  The little girl wore a red riding cloak, so everyone called her Little Red Riding Hood.</p><p>One morning, Little Red Riding Hood asked her mother if she could go to visit her grandmother as it had been a while since they'd seen each other.</p><p>\"That's a good idea,\" her mother said.</p></div>",
     "continue": [
       {
         "text": "Next",
         "color": "cyan",
-        "slide": "first"
+        "slide": "demoPuzzle"
       }
     ]
   },
   {
-    "slide": "first",
-    "bgImg": "SWSheffield-10-Logo-faded.png",
-    "type": "story",
-    "text": "<p>We all know the fairytales as we grew up. Sleeping Beauty, Cinderella, Rapunzel - all rescued by.. A prince.</p><p>This tired trope doesn't teach children that they can do things for themselves.</p>",
-    "continue": [
-      {
-        "text": "Next",
-        "color": "cyan",
-        "slide": "second"
-      }
-    ]
-  },
-  {
-    "slide": "second",
-    "bgImg": "SWSheffield-10-Logo-faded.png",
-    "type": "story",
-    "text": "<p>We asked a number?? of parents and their children for the kinds of things that they look for in books and reading activities.</p><p>Multiple Choice!</p>",
-    "continue": [
-      {
-        "text": "Yes",
-        "color": "cyan",
-        "slide": "third"
-      },
-      {
-        "text": "Literally the best",
-        "color": "cyan",
-        "slide": "third"
-      },
-      {
-        "text": "Absolutely",
-        "color": "cyan",
-        "slide": "third"
-      }
-    ]
-  },
-  {
-    "slide": "third",
-    "bgImg": "SWSheffield-10-Logo-faded.png",
+    "slide": "demoPuzzle",
+    "bgImg": "blank.png",
     "type": "puzzle",
-    "text": "<p>Example of a puzzle</p>",
+    "text": "<div style=\"font-size:0.3em;\"><p>Which path should Red Riding Hood take to get to her Grandmother?</p><img class=\"storyImg\" src=\"/img/RRHMazePuzzle.png\" style=\"width: 60%; margin: auto;\"/></div>",
     "continue": [
       {
-        "text": "Next",
+        "text": "A",
         "color": "cyan",
         "answer": false
       },
       {
-        "text": "Next",
+        "text": "B",
         "color": "cyan",
-        "answer": false
+        "answer": true,
+        "slide": "choices"
       },
       {
-        "text": "Next",
+        "text": "C",
         "color": "cyan",
-        "slide": "fourth",
-        "answer": true
+        "answer": false
       }
     ]
   },
   {
-    "slide": "fourth",
-    "bgIng": "SWSheffield-10-Logo-faded.png",
+    "slide": "choices",
+    "bgImg": "blank.png",
     "type": "story",
-    "text": "<p>&nbsp;</p>",
+    "text": "<div style=\"font-size:0.3em;\"><p>Almost too late, Little Red Riding Hood realized that the person in the bed was not her Grandmother, but a hungry wolf.</p><p></p><p>What should she do?</p><ul><li>A) Trick the Wolf</li><li>B) Give the Wolf the Picnic</li><li>C) Run for help</li></ul><p><img src=\"/img/wolf.PNG\" style=\"width:35%; margin:auto;\"/></p></div>",
     "continue": [
       {
-        "text": "Next",
+        "text": "Back",
+        "color": "blue",
+        "answer": true,
+        "slide": "demoPuzzle"
+      },
+      {
+        "text": "A",
         "color": "cyan",
+        "slide": "choicesTrickWolf"
+      },
+      {
+        "text": "B",
+        "color": "cyan",
+        "answer": false
+      },
+      {
+        "text": "C",
+        "color": "cyan",
+        "answer": false
+      }
+    ]
+  },
+  {
+    "slide": "choicesTrickWolf",
+    "bgImg": "blank.png",
+    "type": "story",
+    "text": "<div style=\"font-size:0.3em;\"><p>Red Riding Hood looks at the really thin wolf and decides she can trick the wolf into letting her Grandmother go.</p><p>Red Riding Hood sneaks the pepper pot out of the picnic basket and spreads it onto the flowers she picked.</p><p>\"Grandmother, smell these beautiful flowers I picked\" she says</p><p>The wolf smells the flowers and sneezes Grandmother out!</p><p>\"You bad wolf\" Red Riding Hood scolds, \"I would have shared my picnic if you'd only asked\"</p><p>The sneezy wolf looks sheepish and runs away.</p><p><img src=\"/img/trickWolf.png\" style=\"width:30%; margin: auto;\"/></div>",
+    "continue": [
+      {
+        "text": "Back",
+        "color": "blue",
+        "slide": "choices"
+      },
+      {
+        "text": "Next",
+        "color": "green",
+        "slide": "value"
+      }
+    ]
+  },
+  {
+    "slide": "value",
+    "bgImg": "SWSheffield-10-Logo-faded.png",
+    "type": "story",
+    "text": "<h2>Business Proposition</h2><p>Subscription Model with Revenue Share</p>",
+    "continue": [
+      {
+        "text": "Back",
+        "color": "blue",
+        "slide": "choices"
+      },
+      {
+        "text": "Next",
+        "color": "green",
+        "slide": "team"
+      }
+    ]
+  },
+  {
+    "slide": "team",
+    "bgImg": "SWSheffield-10-Logo-faded.png",
+    "type": "story",
+    "text": "<h2>The Team!</h2><p>Tejay White</p><p>Jo Brabban</p><p>Dave Chaston</p>",
+    "continue": [
+      {
+        "text": "Back",
+        "color": "blue",
+        "slide": "choices"
+      },
+      {
+        "text": "Next",
+        "color": "green",
         "slide": "finish"
       }
     ]
@@ -91,6 +211,6 @@
     "slide": "finish",
     "bgImg": "SWSheffield-10-Logo-faded.png",
     "type": "finish",
-    "text": "<p>Thank you for watching, we hope you've enjoyed</p><p>Any Questions?</p>"
+    "text": "<p>Thank you for watching, we hope you've enjoyed</p><p>If you would like to have a go yourself, we're already LIVE at <a href=\"http://www.awesomeeverafter.co\">http://www.awesomeeverafter.co</a></p><br/><br/><p>Any Questions?</p>"
   }]
 }
