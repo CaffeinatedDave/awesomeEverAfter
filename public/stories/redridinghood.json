@@ -156,7 +156,7 @@
     "slide": "tenthTrickWolf",
     "bgImg": "blank.png",
     "type": "finish",
-    "text": "<p>Red Riding Hood looks at the really thin wolf and decides she can trick the wolf into letting her Grandmother go.</p><p>Red Riding Hood sneaks the pepper pot out of the picnic basket and spreads it onto the flowers she picked.</p><p>\"Grandmother, smell these beautiful flowers I picked\" she says</p><p>The wolf smells the flowers and sneezes Grandmother out!</p><p>\"You bad wolf\" Red Riding Hood scolds, \"I would have shared my picnic if you'd only asked\"</p><p>The sneezy wolf looks sheepish and runs away.</p>"
+    "text": "<p>Red Riding Hood looks at the really thin wolf and decides she can trick the wolf into letting her Grandmother go.</p><p>Red Riding Hood sneaks the pepper pot out of the picnic basket and spreads it onto the flowers she picked.</p><p>\"Grandmother, smell these beautiful flowers I picked\" she says</p><p>The wolf smells the flowers and sneezes Grandmother out!</p><p>\"You bad wolf\" Red Riding Hood scolds, \"I would have shared my picnic if you'd only asked\"</p><p>The sneezy wolf looks sheepish and runs away.</p><p><img src=\"/img/trickWolf.png\" style=\"width:30%; margin: auto;\"/>"
   },
   {
     "slide": "tenthPicnic",
