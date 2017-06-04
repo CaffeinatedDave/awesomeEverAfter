@@ -3,9 +3,8 @@ function loadScript(file) {
     console.log(json); // this will show the info it in firebug console
     window.story = json.story;
     window.title = json.title;
-    $("#mainframe").html(
-      "<div id=\"slide\"></div>" +
-      "<div id=\"controls\"></div>");
+    $("#mainframe").html('<div id="slide"></div>');
+    $("#controls").css('display', 'inline');
     loadSlide(json.start);
   });
 }
@@ -21,7 +20,7 @@ function loadSlide(slide) {
   const selectedSlide = window.story.filter(function(e) {return e.slide == slide})[0];
   $('#mainframe').css("background-image", 'url("/img/'+selectedSlide.bgImg+'")');
   $('#slide').html('<div class="text shaded"><h2>' + window.title + '</h2>' + selectedSlide.text + '</div>');
-  options = '<div class="row">';
+  options = '<div class="row center">';
   if (selectedSlide.type === "finish") {
     options += '<div class="col-12"><button onclick="location.href=\'/storytime\'" class="btn storyButton green">Finish</button></div>';
   } else {

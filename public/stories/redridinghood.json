@@ -10,11 +10,11 @@
       {
         "text": "Next",
         "color": "cyan",
-        "slide": "second"
+        "slide": "third"
       }
     ]
   },
-  /*{
+  {
     "slide": "second",
     "bgImg": "intro.jpg",
     "type": "story",
@@ -26,7 +26,7 @@
         "slide": "third"
       }
     ]
-  },*/
+  },
   {
     "slide": "third",
     "bgImg": "blank.png",

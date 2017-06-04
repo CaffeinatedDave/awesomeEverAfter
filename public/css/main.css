@@ -14,6 +14,10 @@
 .yellow {background-color: #ff0;}
 .orange {background-color: #fa0;}
 
+.center {
+  text-align:center;
+  margin: auto;
+}
 div#mainframe {
   text-align: center;
   height: 80vh;
@@ -26,7 +30,7 @@ div#mainframe {
   background-repeat: no-repeat;
   background-position: center center;
 }
-#warning-message { display: none; }
+#warning-message { display: none; text-align: center; width: 80%; margin: auto}
 @media only screen and (orientation:portrait){
     #wrapper { display:none; }
     #warning-message { display:block; margin-top: 7em;}
@@ -71,7 +75,6 @@ div.text h2 {
   display: table-cell;
 }
 .storyBullet img {
-  float:left;
   width: 100%
 }
 
@@ -82,7 +85,6 @@ div.text h2 {
 }
 
 #controls {
-  font-weight: bold;
   position: fixed;
   left:0;
   bottom: 0;
@@ -93,6 +95,7 @@ div.text h2 {
 
 #controls .storyButton {
   padding: 1em;
+  font-weight: bold;
   font-size: 1.5em;
 }
 

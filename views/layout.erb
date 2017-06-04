@@ -19,9 +19,11 @@
     <%= erb :header %>
     <div id="wrapper" class="container">
       <%= yield %>
+      <div id="controls"></div>
     </div>
     <div id="warning-message">
-      This website is only viewable in landscape mode. Please rotate!
+      <p>This website is only viewable in landscape mode. Please rotate!</p>
+      <img class="img-responsive center" src="img/phoneRotate.png"/>
     </div>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
