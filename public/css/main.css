@@ -26,7 +26,7 @@ div#mainframe {
   left: 10vw;
   position: fixed;
   overflow-y: scroll;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -63,7 +63,9 @@ div#mainframe div.text {
   margin-bottom: 5em;
 }
 div#mainframe div.shaded {
-  background-color: rgba(255,255,255,0.5);
+  margin-top: 1em;
+  padding: 1em;
+  background-color: rgba(255,255,255,0.8);
 }
 
 .navbar, .btn {
@@ -82,6 +84,8 @@ div.text h2 {
 
 .storyBullet {
   display: table-cell;
+  font-family: awesomeEverAfterHeaders;
+  font-size: 3em;
 }
 .storyBullet img {
   width: 100%

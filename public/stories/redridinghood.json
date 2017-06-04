@@ -131,9 +131,9 @@
   },
   {
     "slide": "tenth",
-    "bgImg": "wolf.PNG",
+    "bgImg": "blank.png",
     "type": "story",
-    "text": "<p>Almost too late, Little Red Riding Hood realized that the person in the bed was not her Grandmother, but a hungry wolf.</p><p></p><p>What should she do?</p><ul><li>A) Trick the Wolf</li><li>B) Give the Wolf the Picnic</li><li>C) Run for help</li></ul>",
+    "text": "<p>Almost too late, Little Red Riding Hood realized that the person in the bed was not her Grandmother, but a hungry wolf.</p><p></p><p>What should she do?</p><ul><li>A) Trick the Wolf</li><li>B) Give the Wolf the Picnic</li><li>C) Run for help</li></ul><p><img src=\"/img/wolf.PNG\" style=\"width:35%; margin:auto;\"/></p>",
     "continue": [
       {
         "text": "A",
