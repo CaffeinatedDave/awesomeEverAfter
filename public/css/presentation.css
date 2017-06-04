@@ -7,3 +7,6 @@
 #mainframe li {
   font-size: 3em;
 }
+.shaded {
+  background-color: rgba(0,0,0,0) !important;
+}

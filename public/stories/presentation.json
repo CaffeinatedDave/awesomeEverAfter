@@ -4,9 +4,9 @@
   "css": "presentation.css",
   "story": [{
     "slide": "intro",
-    "bgImg": "SWSheffield-10-Logo-faded.png",
+    "bgImg": "home-faded.jpg",
     "type": "story",
-    "text": "<p>Once upon a time...</p><p>In a land far far away...</p><p>There were some really stereotypical fairytales</p><img src=\"/img/logofull.png\" style=\"width:35%; margin: auto;\"/>",
+    "text": "<p style=\"margin-top: 10vh;\">Once upon a time...</p><p>In a land far far away...</p><p>There were some really stereotypical fairytales</p><img src=\"/img/logofull.png\" style=\"width:35%; margin: auto;\"/>",
     "continue": [
       {
         "text": "Next",
@@ -17,9 +17,9 @@
   },
   {
     "slide": "problem",
-    "bgImg": "SWSheffield-10-Logo-faded.png",
+    "bgImg": "home-faded.jpg",
     "type": "story",
-    "text": "<h2>Problem</h2><p>Lack of female heroes - most happy ever after based on Princes.</p><p>Lack of problem solvings skills and choice.</p>",
+    "text": "<h2>Problem</h2><p style=\"margin-top: 10vh;\">Lack of female heroes - most happy ever after based on Princes.</p><p style=\"margin-top: 10vh;\">Lack of problem solvings skills and ending choice.</p>",
     "continue": [
       {
         "text": "Back",
@@ -29,15 +29,15 @@
       {
         "text": "Next",
         "color": "green",
-        "slide": "validation"
+        "slide": "solution"
       }
     ]
   },
   {
     "slide": "solution",
-    "bgImg": "SWSheffield-10-Logo-faded.png",
+    "bgImg": "home-faded.jpg",
     "type": "story",
-    "text": "<h2>Solution</h2><p></p>",
+    "text": "<h2>Solution</h2><p style=\"margin-top: 15vh;\">An interactive story game aimed at engaging children and having them control the story.</p>",
     "continue": [
       {
         "text": "Back",
@@ -53,14 +53,14 @@
   },
   {
     "slide": "validation",
-    "bgImg": "SWSheffield-10-Logo-faded.png",
+    "bgImg": "home-faded.jpg",
     "type": "story",
-    "text": "<h2>Validation</h2><p>We asked a number of parents and their children for the kinds of things that they look for in books and reading activities.</p><p>Parents identifying the problem was not as we expected.</p>",
+    "text": "<h2>Validation</h2><p style=\"margin-top: 15vh;\">We asked a number of parents and their children for the kinds of things that they look for in books and apps.</p>",
     "continue": [
       {
         "text": "Back",
         "color": "blue",
-        "slide": "problem"
+        "slide": "solution"
       },
       {
         "text": "Next",
@@ -71,14 +71,14 @@
   },
   {
     "slide": "stats",
-    "bgImg": "SWSheffield-10-Logo-faded.png",
+    "bgImg": "home-faded.jpg",
     "type": "story",
-    "text": "<h2>Results</h2><p>71% of children aged 5-15 have access to a tablet</p><p>Lack of interpersonal skills taught to boys and lack of puzzles for girls</p>",
+    "text": "<h2>Results</h2><p style=\"margin-top: 5vh;\">OFCOM 2014 - 71% of children aged 5-15 have access to a tablet</p><p style=\"margin-top: 5vh;\">Our survey - most popular option was for puzzles and choose-your-own-adventure style endings</p><p style=\"margin-top: 5vh;\">Lack of interpersonal relationship skills taught to boys and lack of problem solving skills for girls</p>",
     "continue": [
       {
         "text": "Back",
         "color": "blue",
-        "slide": "problem"
+        "slide": "validation"
       },
       {
         "text": "Next",
@@ -91,11 +91,16 @@
     "slide": "demoIntro",
     "bgImg": "intro.jpg",
     "type": "story",
-    "text": "<div style=\"font-size:0.3em;\"><p>Once upon a time, there was a girl who lived in a village near the forest.  The little girl wore a red riding cloak, so everyone called her Little Red Riding Hood.</p><p>One morning, Little Red Riding Hood asked her mother if she could go to visit her grandmother as it had been a while since they'd seen each other.</p><p>\"That's a good idea,\" her mother said.</p></div>",
+    "text": "<div style=\"background-color: rgba(255,255,255,0.8) !important;\"><p>One morning, Little Red Riding Hood asked her mother if she could go to visit her grandmother as it had been a while since they'd seen each other.</p><p>\"That's a good idea,\" her mother said.</p></div>",
     "continue": [
       {
+        "text": "Back",
+        "color": "blue",
+        "slide": "stats"
+      },
+      {
         "text": "Next",
-        "color": "cyan",
+        "color": "green",
         "slide": "demoPuzzle"
       }
     ]
@@ -104,7 +109,7 @@
     "slide": "demoPuzzle",
     "bgImg": "blank.png",
     "type": "puzzle",
-    "text": "<div style=\"font-size:0.3em;\"><p>Which path should Red Riding Hood take to get to her Grandmother?</p><img class=\"storyImg\" src=\"/img/RRHMazePuzzle.png\" style=\"width: 60%; margin: auto;\"/></div>",
+    "text": "<div style=\"\"><p>Which path should Red Riding Hood take to get to her Grandmother?</p><img class=\"storyImg\" src=\"/img/RRHMazePuzzle.png\" style=\"width: 60%; margin: auto;\"/></div>",
     "continue": [
       {
         "text": "A",
@@ -128,7 +133,7 @@
     "slide": "choices",
     "bgImg": "blank.png",
     "type": "story",
-    "text": "<div style=\"font-size:0.3em;\"><p>Almost too late, Little Red Riding Hood realized that the person in the bed was not her Grandmother, but a hungry wolf.</p><p></p><p>What should she do?</p><ul><li>A) Trick the Wolf</li><li>B) Give the Wolf the Picnic</li><li>C) Run for help</li></ul><p><img src=\"/img/wolf.PNG\" style=\"width:35%; margin:auto;\"/></p></div>",
+    "text": "<div style=\"\"><p>Little Red Riding Hood realized that the person in the bed was not her Grandmother, but a hungry wolf. What should she do?</p><ul><li>A) Trick the Wolf</li><li>B) Give the Wolf the Picnic</li><li>C) Run for help</li></ul><p><img src=\"/img/wolf.PNG\" style=\"width:35%; margin:auto;\"/></p></div>",
     "continue": [
       {
         "text": "Back",
@@ -157,7 +162,7 @@
     "slide": "choicesTrickWolf",
     "bgImg": "blank.png",
     "type": "story",
-    "text": "<div style=\"font-size:0.3em;\"><p>Red Riding Hood looks at the really thin wolf and decides she can trick the wolf into letting her Grandmother go.</p><p>Red Riding Hood sneaks the pepper pot out of the picnic basket and spreads it onto the flowers she picked.</p><p>\"Grandmother, smell these beautiful flowers I picked\" she says</p><p>The wolf smells the flowers and sneezes Grandmother out!</p><p>\"You bad wolf\" Red Riding Hood scolds, \"I would have shared my picnic if you'd only asked\"</p><p>The sneezy wolf looks sheepish and runs away.</p><p><img src=\"/img/trickWolf.png\" style=\"width:30%; margin: auto;\"/></div>",
+    "text": "<div style=\"\"><p>Red Riding Hood sneaks the pepper pot out of the picnic basket and spreads it onto the flowers.</p><p>\"Grandma, smell these beautiful flowers I picked\"</p><p>The wolf smells the flowers and sneezes Grandma out!</p><p>The sneezy wolf looks sheepish and runs away.</p><p><img src=\"/img/trickWolf.png\" style=\"width:30%; margin: auto;\"/></div>",
     "continue": [
       {
         "text": "Back",
@@ -173,9 +178,9 @@
   },
   {
     "slide": "value",
-    "bgImg": "SWSheffield-10-Logo-faded.png",
+    "bgImg": "home-faded.jpg",
     "type": "story",
-    "text": "<h2>Business Proposition</h2><p>Subscription Model with Revenue Share</p>",
+    "text": "<h2>Business Proposition</h2><p style=\"margin-top: 15vh;\">Subscription Model with Revenue Share</p>",
     "continue": [
       {
         "text": "Back",
@@ -191,9 +196,9 @@
   },
   {
     "slide": "team",
-    "bgImg": "SWSheffield-10-Logo-faded.png",
+    "bgImg": "home-faded.jpg",
     "type": "story",
-    "text": "<h2>The Team!</h2><p>Tejay White</p><p>Jo Brabban</p><p>Dave Chaston</p>",
+    "text": "<h2>Team Awesome!</h2><p><img src=\"/img/TeamAwesome.png\" style=\"width: 80%;\"/></p><p>Tejay White, Jo Brabban, Dave Chaston</p>",
     "continue": [
       {
         "text": "Back",
@@ -209,7 +214,7 @@
   },
   {
     "slide": "finish",
-    "bgImg": "SWSheffield-10-Logo-faded.png",
+    "bgImg": "home-faded.jpg",
     "type": "finish",
     "text": "<p>Thank you for watching, we hope you've enjoyed</p><p>If you would like to have a go yourself, we're already LIVE at <a href=\"http://www.awesomeeverafter.co\">http://www.awesomeeverafter.co</a></p><br/><br/><p>Any Questions?</p>"
   }]
