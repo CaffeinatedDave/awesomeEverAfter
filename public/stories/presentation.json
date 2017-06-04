@@ -112,6 +112,12 @@
     "text": "<div style=\"\"><p>Which path should Red Riding Hood take to get to her Grandmother?</p><img class=\"storyImg\" src=\"/img/RRHMazePuzzle.png\" style=\"width: 60%; margin: auto;\"/></div>",
     "continue": [
       {
+        "text": "Back",
+        "color": "blue",
+        "answer": true,
+        "slide": "demoIntro"
+      },
+      {
         "text": "A",
         "color": "cyan",
         "answer": false
@@ -198,7 +204,7 @@
     "slide": "team",
     "bgImg": "home-faded.jpg",
     "type": "story",
-    "text": "<h2>Team Awesome!</h2><p><img src=\"/img/TeamAwesome.png\" style=\"width: 80%;\"/></p><p>Tejay White, Jo Brabban, Dave Chaston</p>",
+    "text": "<h2>Team Awesome!</h2><p><img src=\"/img/TeamAwesome.png\" style=\"width: 80%;\"/></p><p>Jo Brabban, Dave Chaston, Tejay White</p>",
     "continue": [
       {
         "text": "Back",
@@ -215,7 +221,25 @@
   {
     "slide": "finish",
     "bgImg": "home-faded.jpg",
+    "type": "story",
+    "text": "<p style=\"margin-top: 15vh;\">Thank you for watching our demo, we hope you enjoyed it</p><p style=\"margin-top: 10vh;\">If you would like to have a go yourself, we're already LIVE at <a href=\"http://www.awesomeeverafter.co\">http://www.awesomeeverafter.co</a></p><p style=\"margin-top: 10vh;\">Any Questions?</p>",
+    "continue": [
+      {
+        "text": "Back",
+        "color": "blue",
+        "slide": "team"
+      },
+      {
+        "text": "Finish",
+        "color": "green",
+        "slide": "realfinish"
+      }
+    ]
+  },
+  {
+    "slide": "realfinish",
+    "bgImg": "home-faded.jpg",
     "type": "finish",
-    "text": "<p>Thank you for watching, we hope you've enjoyed</p><p>If you would like to have a go yourself, we're already LIVE at <a href=\"http://www.awesomeeverafter.co\">http://www.awesomeeverafter.co</a></p><br/><br/><p>Any Questions?</p>"
+    "text": "<p>The Moose of Curiousity sees you...</p><p><img src=\"https://media.giphy.com/media/yX6xFbjL4nDTG/giphy.gif\" style=\"width: 70%;\"/></p>"
   }]
 }
